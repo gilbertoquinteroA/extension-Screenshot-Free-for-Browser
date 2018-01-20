@@ -1,0 +1,17 @@
+{
+  "name": "Screenshot Free for Browser",
+  "version": "1.3",
+  "description": "Extesion Free for you take a Screenshot",
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Take a screen shot!"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "manifest_version": 2
+}
